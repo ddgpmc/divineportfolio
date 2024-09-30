@@ -1,0 +1,176 @@
+/* src/Home.css */
+
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Hero section */
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f3;
+  /* Light grey background */
+  padding: 20px;
+}
+
+/* Content container */
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 10px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Image styling */
+.hero-image img {
+  width: 500px;
+  height: auto;
+  border: #ffffff solid 30px;
+  margin-right: 60px;
+  border-radius: 50px;
+  box-shadow:41px 41px 82px #d9d9d9,
+  -41px -41px 82px #ffffff;;
+}
+
+
+.hero-text {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hero-text h1 {
+  font-size: 4rem;
+  margin-bottom: 15px;
+  color: #333;
+  text-shadow: 2px 2px 4px #bababa, -2px -2px 4px #ffffff; /* Neumorphic text */
+}
+.hero-text h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #666;
+  margin-bottom: 25px;
+}
+.hero-text p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #666;
+  margin-bottom: 25px;
+  text-align: start;
+}
+
+
+/* Download CV button */
+.cv-button {
+  padding: 10px 20px;
+  color: #333;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #e0e0e0;
+  box-shadow: inset 4px 4px 10px #bcbcbc, inset -4px -4px 10px #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  border: 2px solid rgb(206, 206, 206);
+  margin-bottom: 25px;
+}
+
+.cv-button:hover {
+  box-shadow: inset 2px 2px 5px #bcbcbc, inset -2px -2px 5px #ffffff, 2px 2px 5px #bcbcbc, -2px -2px 5px #ffffff;
+
+}
+.cv-button:focus {
+  outline: none;
+  box-shadow: inset 2px 2px 5px #bcbcbc, inset -2px -2px 5px #ffffff, 2px 2px 5px #bcbcbc, -2px -2px 5px #ffffff;
+}
+/* Social links */
+.social-links {
+  display: flex;
+  gap: 20px;
+}
+
+.social-link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  font-size: 1.5rem; /* Icon size */
+  color: #333;
+  text-decoration: none;
+  background-color: #ffffff;
+  border-radius: 50%; /* Makes them circular */
+  box-shadow: inset 6px 6px 12px #c5c5c5, inset -6px -6px 12px #ffffff;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-link:hover {
+  box-shadow: inset 2px 2px 5px #bcbcbc, inset -2px -2px 5px #ffffff, 2px 2px 5px #bcbcbc, -2px -2px 5px #ffffff;
+}
+
+.social-link:focus {
+  outline: none;
+  box-shadow: inset 2px 2px 5px #bcbcbc, inset -2px -2px 5px #ffffff, 2px 2px 5px #bcbcbc, -2px -2px 5px #ffffff;
+}
+
+/* Icon styles */
+.social-link i {
+  font-size: 1.5rem; /* Adjust icon size */
+  color: #333; /* Icon color */
+}
+
+/* Tablet and mobile view */
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+    align-items: center; /* Center items vertically */
+  }
+
+  .hero-text {
+    margin-left: 0;
+    text-align: center; /* Center-align the text */
+  }
+
+  .hero-image img {
+    width: 200px;
+    height: 200px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    border: #ffffff solid 5px;
+  }
+  .hero-text h1 {
+    font-size: 2rem;
+    display: block;
+    margin: 0 auto 20px auto; /* Center-align and add spacing below */
+  }
+  .hero-text h3 {
+    text-align: center;
+    margin: 0 auto 20px auto; /* Center-align and add spacing below */
+  }
+  .hero-text p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .cv-button {
+    font-size: 1rem;
+    display: block;
+    margin: 0 auto 20px auto; /* Center-align and add spacing below */
+  }
+
+  .social-links {
+    justify-content: center;
+    display: block;
+    margin: 0 auto 20px auto; /* Center-align and add spacing below */
+    gap: 20px;
+  }
+}
+  

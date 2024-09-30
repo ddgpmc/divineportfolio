@@ -1,0 +1,154 @@
+/* General styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f3;
+}
+
+/* About Section */
+.about-container {
+  text-align: center;
+  margin: 50px auto; /* Centering */
+  padding: 20px;
+  max-width: 800px; /* Set a max width */
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  margin-top: 50px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  box-shadow: 4px 4px 8px #d1d1d4, -4px -4px 8px #ffffff;
+}
+
+.about-text h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about-text p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.download-cv {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  color: #333;
+  background-color: #f0f0f3;
+  border-radius: 10px;
+  box-shadow: inset 4px 4px 10px #bcbcbc, inset -4px -4px 10px #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  border: 2px solid rgb(206, 206, 206);
+}
+
+.download-cv:hover {
+  box-shadow: inset 2px 2px 5px #bcbcbc, inset -2px -2px 5px #ffffff, 2px 2px 5px #bcbcbc, -2px -2px 5px #ffffff;
+}
+
+/* Tech Stack Section */
+.tech-stack-section {
+  text-align: center;
+  padding: 40px;
+  background-color: #f0f0f3;
+}
+
+.tech-stack-title {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.tech-stack-container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap in case of overflow */
+  justify-content: space-around; /* Distribute items horizontally */
+}
+
+.skill-item {
+  width: 150px; /* Adjusted to be smaller */
+  margin-bottom: 20px;
+}
+
+.skill-item span {
+  font-size: 16px;
+  color: #444;
+}
+
+/* Neumorphic Progress Bars */
+.progress-bar {
+  width: 100%;
+  background-color: #f0f0f3;
+  border-radius: 10px;
+  height: 20px;
+  margin-top: 10px;
+  box-shadow: inset 4px 4px 8px #d1d1d4, inset -4px -4px 8px #ffffff;
+  overflow: hidden;
+}
+
+.loading-bar {
+  height: 100%;
+  background-color: #aaaaab;
+  width: 0%; /* Set to 0 initially */
+  border-radius: 10px;
+  transition: width 2s ease;
+  box-shadow: 4px 4px 8px #bcbcbc, -4px -4px 8px #ffffff;
+}
+/* Education Section */
+.education-section {
+  padding: 40px;
+  text-align: center;
+}
+
+.education-title {
+  font-size: 28px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+/* Flexbox container for education items */
+.education-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.neumorphic-container {
+  background-color: #f0f0f3;
+  padding: 30px;
+  border-radius: 20px;
+  width: 300px;
+  box-shadow: 8px 8px 16px #d1d1d4, -8px -8px 16px #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.neumorphic-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 12px 12px 24px #d1d1d4, -12px -12px 24px #ffffff;
+}
+
+.education-item h4 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.education-item p {
+  font-size: 18px;
+  color: #666;
+}

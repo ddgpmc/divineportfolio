@@ -1,0 +1,60 @@
+/* ContactMe.css */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #e0e0e0; /* Light gray background for neumorphism */
+}
+
+.contact-form {
+  background-color: #e0e0e0;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 7px 7px 15px #bebebe, -7px -7px 15px #ffffff; /* Neumorphic shadow */
+}
+
+.form-title {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-field, .textarea-field {
+  width: 100%;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 10px;
+  background-color: #e0e0e0;
+  box-shadow: inset 5px 5px 10px #bebebe, inset -5px -5px 10px #ffffff;
+  font-size: 1em;
+  color: #333;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 12px 20px;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 1.1em;
+  box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+  transition: all 0.2s ease-in-out;
+}
+
+.submit-button:hover {
+  box-shadow: 5px 5px 10px #bebebe, -5px -5px 15px #ffffff;
+}
+
+.feedback-message {
+  margin-top: 20px;
+  font-size: 1.1em;
+  color: #333;
+  background-color: #f0f0f0;
+  padding: 10px 15px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+  text-align: center;
+}

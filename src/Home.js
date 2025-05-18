@@ -2,7 +2,7 @@
 
 import React from 'react';
 import './Home.css';
-import profilePicture from './assets/picprof.png'; // Replace with your own image path
+import profilePicture from './assets/picprof.png'; 
 import CVdivs from './assets/DIV_CV.pdf';
 
 function Home() {

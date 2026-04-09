@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/divineportfolio/static/css/main.160373b6.css",
-    "main.js": "/divineportfolio/static/js/main.e5d74bef.js",
+    "main.css": "/divineportfolio/static/css/main.3c298061.css",
+    "main.js": "/divineportfolio/static/js/main.312d196d.js",
     "static/js/453.56c90010.chunk.js": "/divineportfolio/static/js/453.56c90010.chunk.js",
+    "static/media/CABIGTING_CVPROJECTS.pdf": "/divineportfolio/static/media/CABIGTING_CVPROJECTS.34ee345deea82344802b.pdf",
     "static/media/17.png": "/divineportfolio/static/media/17.4fcd2bdf1cf4cef5e582.png",
     "static/media/13.png": "/divineportfolio/static/media/13.f40cdd6de3692f05eb0c.png",
     "static/media/picprof.png": "/divineportfolio/static/media/picprof.aac0eba06e881dd754af.png",
@@ -10,7 +11,6 @@
     "static/media/11.png": "/divineportfolio/static/media/11.630ee44c76e902bb90ae.png",
     "static/media/20.png": "/divineportfolio/static/media/20.50c0a2a28485f4c50d54.png",
     "static/media/25.png": "/divineportfolio/static/media/25.b4647014994ea2083b3d.png",
-    "static/media/DIV_CV.pdf": "/divineportfolio/static/media/DIV_CV.83b784636fb8cc156b20.pdf",
     "static/media/22.png": "/divineportfolio/static/media/22.e3826e25043e2fc0afcd.png",
     "static/media/12.png": "/divineportfolio/static/media/12.ef34ac027b8fb1f3c67c.png",
     "static/media/21.png": "/divineportfolio/static/media/21.2f9a513beb5444f87531.png",
@@ -33,22 +33,28 @@
     "static/media/awufdn.png": "/divineportfolio/static/media/awufdn.9587721dee5e0f0d03e1.png",
     "static/media/beneath.png": "/divineportfolio/static/media/beneath.4af5344f9760bee9a74d.png",
     "static/media/esagip.png": "/divineportfolio/static/media/esagip.729e84acb6981cb665b8.png",
+    "static/media/d2.jpg": "/divineportfolio/static/media/d2.50e966d0ec7e42f9541b.jpg",
     "static/media/fa-brands-400.ttf": "/divineportfolio/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
     "static/media/accty.png": "/divineportfolio/static/media/accty.9e29bafffa71a6cfc590.png",
     "static/media/homs.png": "/divineportfolio/static/media/homs.08a36843ab3c49e05a64.png",
     "static/media/fa-solid-900.woff2": "/divineportfolio/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
     "static/media/fa-brands-400.woff2": "/divineportfolio/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/hiddencity.jpg": "/divineportfolio/static/media/hiddencity.35a6801faf3bfd8b7c1f.jpg",
+    "static/media/fyr.jpg": "/divineportfolio/static/media/fyr.c87a5be945965d25506b.jpg",
+    "static/media/innovau.jpg": "/divineportfolio/static/media/innovau.525e5ba8b8356c3c1c8a.jpg",
+    "static/media/flexilabs.jpg": "/divineportfolio/static/media/flexilabs.f56978f505c9095bf47f.jpg",
+    "static/media/anetteerickson.jpg": "/divineportfolio/static/media/anetteerickson.d11e879b846e0edbd513.jpg",
     "static/media/fa-regular-400.ttf": "/divineportfolio/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
     "static/media/fa-regular-400.woff2": "/divineportfolio/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
     "static/media/fa-v4compatibility.ttf": "/divineportfolio/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/divineportfolio/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/divineportfolio/index.html",
-    "main.160373b6.css.map": "/divineportfolio/static/css/main.160373b6.css.map",
-    "main.e5d74bef.js.map": "/divineportfolio/static/js/main.e5d74bef.js.map",
+    "main.3c298061.css.map": "/divineportfolio/static/css/main.3c298061.css.map",
+    "main.312d196d.js.map": "/divineportfolio/static/js/main.312d196d.js.map",
     "453.56c90010.chunk.js.map": "/divineportfolio/static/js/453.56c90010.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.160373b6.css",
-    "static/js/main.e5d74bef.js"
+    "static/css/main.3c298061.css",
+    "static/js/main.312d196d.js"
   ]
 }

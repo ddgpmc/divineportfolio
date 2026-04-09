@@ -1,154 +1,142 @@
-/* General styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f0f0f3;
+  font-family: 'Inter', sans-serif;
+  background: #f0f0f3;
 }
 
-/* About Section */
+.about-wrapper {
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* ABOUT */
 .about-container {
   text-align: center;
-  margin: 50px auto; /* Centering */
-  padding: 20px;
-  max-width: 800px; /* Set a max width */
+  padding: 60px 20px;
 }
 
 .profile-picture {
-  width: 150px;
-  height: 150px;
-  margin-top: 50px;
+  width: 140px;
   border-radius: 50%;
   margin-bottom: 20px;
-  box-shadow: 4px 4px 8px #d1d1d4, -4px -4px 8px #ffffff;
+  box-shadow: 6px 6px 12px #d1d1d4, -6px -6px 12px #fff;
 }
 
 .about-text h2 {
-  font-size: 36px;
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #888;
   margin-bottom: 20px;
-  color: #333;
 }
 
 .about-text p {
-  font-size: 18px;
-  color: #666;
-  margin-bottom: 40px;
+  color: #555;
+  margin-bottom: 12px;
+  line-height: 1.6;
 }
 
 .download-cv {
+  display: inline-block;
+  margin-top: 20px;
   padding: 10px 20px;
-  font-size: 1.2rem;
-  color: #333;
-  background-color: #f0f0f3;
   border-radius: 10px;
-  box-shadow: inset 4px 4px 10px #bcbcbc, inset -4px -4px 10px #ffffff;
-  cursor: pointer;
+  background: #f0f0f3;
+  box-shadow: inset 4px 4px 8px #cfcfd1, inset -4px -4px 8px #fff;
   text-decoration: none;
-  transition: all 0.2s ease-in-out;
-  border: 2px solid rgb(206, 206, 206);
+  color: #333;
+  transition: 0.2s;
 }
 
 .download-cv:hover {
-  box-shadow: inset 2px 2px 5px #bcbcbc, inset -2px -2px 5px #ffffff, 2px 2px 5px #bcbcbc, -2px -2px 5px #ffffff;
+  box-shadow: 4px 4px 10px #cfcfd1, -4px -4px 10px #fff;
 }
 
-/* Tech Stack Section */
-.tech-stack-section {
-  text-align: center;
-  padding: 40px;
-  background-color: #f0f0f3;
-}
-
-.tech-stack-title {
-  font-size: 28px;
-  color: #333;
+/* SECTION */
+.section-title {
+  font-size: 24px;
   margin-bottom: 30px;
+  text-align: center;
 }
 
+/* TECH STACK */
 .tech-stack-container {
   max-width: 800px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap; /* Allows items to wrap in case of overflow */
-  justify-content: space-around; /* Distribute items horizontally */
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
 }
 
 .skill-item {
-  width: 150px; /* Adjusted to be smaller */
-  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 14px;
+  background: #f0f0f3;
+  box-shadow: 6px 6px 12px #d1d1d4, -6px -6px 12px #fff;
 }
 
-.skill-item span {
-  font-size: 16px;
-  color: #444;
+/* Header (name + %) */
+.skill-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
 }
 
-/* Neumorphic Progress Bars */
+.skill-percent {
+  font-size: 12px;
+  color: #888;
+}
+
+/* PROGRESS BAR (refined) */
 .progress-bar {
-  width: 100%;
-  background-color: #f0f0f3;
+  height: 8px;
   border-radius: 10px;
-  height: 20px;
-  margin-top: 10px;
-  box-shadow: inset 4px 4px 8px #d1d1d4, inset -4px -4px 8px #ffffff;
+  background: #e5e5ea;
+  box-shadow: inset 2px 2px 4px #d1d1d4, inset -2px -2px 4px #fff;
   overflow: hidden;
 }
 
 .loading-bar {
   height: 100%;
-  background-color: #aaaaab;
-  width: 0%; /* Set to 0 initially */
   border-radius: 10px;
-  transition: width 2s ease;
-  box-shadow: 4px 4px 8px #bcbcbc, -4px -4px 8px #ffffff;
+  width: 0%;
+  background: linear-gradient(
+    90deg,
+    #bcbcbc,
+    #d6d6d6
+  );
+  transition: width 1.2s ease;
 }
-/* Education Section */
+
+/* EDUCATION */
 .education-section {
-  padding: 40px;
+  padding: 40px 20px;
+}
+
+.education-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.edu-card {
+  width: 280px;
+  padding: 25px;
+  border-radius: 16px;
+  background: #f0f0f3;
+  box-shadow: 6px 6px 12px #d1d1d4, -6px -6px 12px #fff;
   text-align: center;
 }
 
-.education-title {
-  font-size: 28px;
-  margin-bottom: 40px;
-  color: #333;
+.edu-card span {
+  font-size: 13px;
+  color: #888;
 }
 
-/* Flexbox container for education items */
-.education-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.neumorphic-container {
-  background-color: #f0f0f3;
-  padding: 30px;
-  border-radius: 20px;
-  width: 300px;
-  box-shadow: 8px 8px 16px #d1d1d4, -8px -8px 16px #ffffff;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.neumorphic-container:hover {
-  transform: translateY(-5px);
-  box-shadow: 12px 12px 24px #d1d1d4, -12px -12px 24px #ffffff;
-}
-
-.education-item h4 {
-  font-size: 22px;
-  margin-bottom: 10px;
-  color: #444;
-}
-
-.education-item p {
-  font-size: 18px;
-  color: #666;
+.edu-card p {
+  font-size: 14px;
+  color: #555;
 }

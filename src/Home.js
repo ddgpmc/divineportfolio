@@ -62,8 +62,8 @@ function Home() {
               Download CV
             </a>
 
-            <a href="#projects" className="cv-button secondary">
-              View Projects
+            <a href="https://calendly.com/divinecabigting12345/30min" target="_blank" className="cv-button secondary">
+              Book A Call
             </a>
           </div>
 
@@ -77,8 +77,8 @@ function Home() {
             <a href="https://www.instagram.com/ddgpmc_" className="social-link">
               <i className="fab fa-instagram"></i>
             </a>
-            <a href="https://t.me/@dcabigting" className="social-link">
-              <i className="fab fa-telegram"></i>
+            <a href="mailto@divinecabigting12345@gmail.com" className="social-link">
+              <i className="fa fa-envelope"></i>
             </a>
           </div>
         </div>

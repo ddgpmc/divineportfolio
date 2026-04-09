@@ -29,7 +29,27 @@
   box-shadow: 6px 6px 12px #bebebe, -6px -6px 12px #ffffff;
   transition: background-color 0.3s, box-shadow 0.3s;
 }
+.disclaimer-container {
+  max-width: 600px;   /* controls paragraph width */
+  margin: 0 auto;     /* center it */
+}
 
+.book-call-btn {
+  display: block;     /* makes it follow container width */
+  width: fit-content; /* keeps button size natural */
+  margin: 12px auto 30px auto; /* top + centered + bottom spacing */
+  padding: 10px 18px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 4px 4px 10px #bebebe, -4px -4px 10px #ffffff;
+  transition: 0.3s;
+}
+
+.book-call-btn:hover {
+  background-color: #555;
+}
 .filter-buttons button:hover {
   background-color: #f0f0f0;
   box-shadow: inset 4px 4px 8px #bebebe, inset -4px -4px 8px #ffffff;

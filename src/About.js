@@ -43,15 +43,17 @@ function About() {
           <p className="subtitle">Full Stack Developer • UI/UX Enthusiast</p>
 
           <p>
-            Magna Cum Laude graduate from TUP with 4+ years of experience building
-            structured, scalable, and user-centered web applications.
+            Magna Cum Laude graduate from TUP with 4+ years of experience building structured, scalable, and user-centered web applications.
+
           </p>
 
           <p>
-            I combine development and design to create systems that are not only
-            functional, but intuitive and visually refined.
+            I combine development and design to create systems that are not only functional, but intuitive and visually refined.
+
           </p>
 
+          <p>Beyond my professional work, development is both a hobby and a passion, continuously driving me to learn, experiment, and build.
+          </p>
           <p>
             Currently exploring AI automation and smart workflows to build more
             forward-thinking digital solutions.

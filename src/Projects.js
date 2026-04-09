@@ -226,8 +226,20 @@ function Projects() {
 
   return (
     <div className="projects-page">
-      <h1 className="page-title">My Projects</h1>
+      <h1 className="page-title">My Projects</h1><div class="disclaimer-container">
+  <p>
+    Some projects are subject to confidentiality agreements and cannot be disclosed. Therefore, this portfolio highlights selected works and does not represent the full scope of my development and graphic design experience. To know more about my experiences, book a call.
+  </p>
 
+  <a 
+    href="https://calendly.com/divinecabigting12345/30min" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    class="book-call-btn"
+  >
+    Book a Call
+  </a>
+</div>
       <div className="filter-buttons">
         <button onClick={() => handleCategoryChange('All')} className={selectedCategory === 'All' ? 'active' : ''}>
           All

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/divineportfolio/static/css/main.d891797a.css",
-    "main.js": "/divineportfolio/static/js/main.cbf09c5d.js",
+    "main.js": "/divineportfolio/static/js/main.26cb1f4a.js",
     "static/js/453.56c90010.chunk.js": "/divineportfolio/static/js/453.56c90010.chunk.js",
     "static/media/CABIGTING_CVPROJECTS.pdf": "/divineportfolio/static/media/CABIGTING_CVPROJECTS.34ee345deea82344802b.pdf",
     "static/media/17.png": "/divineportfolio/static/media/17.4fcd2bdf1cf4cef5e582.png",
@@ -50,11 +50,11 @@
     "static/media/fa-v4compatibility.woff2": "/divineportfolio/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/divineportfolio/index.html",
     "main.d891797a.css.map": "/divineportfolio/static/css/main.d891797a.css.map",
-    "main.cbf09c5d.js.map": "/divineportfolio/static/js/main.cbf09c5d.js.map",
+    "main.26cb1f4a.js.map": "/divineportfolio/static/js/main.26cb1f4a.js.map",
     "453.56c90010.chunk.js.map": "/divineportfolio/static/js/453.56c90010.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d891797a.css",
-    "static/js/main.cbf09c5d.js"
+    "static/js/main.26cb1f4a.js"
   ]
 }

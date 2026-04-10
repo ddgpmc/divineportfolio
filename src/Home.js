@@ -77,9 +77,10 @@ function Home() {
             <a href="https://www.instagram.com/ddgpmc_" className="social-link">
               <i className="fab fa-instagram"></i>
             </a>
-            <a href="mailto@divinecabigting12345@gmail.com" className="social-link">
+            <a href="mailto:divinecabigting12345@gmail.com" className="social-link">
               <i className="fa fa-envelope"></i>
             </a>
+
           </div>
         </div>
 

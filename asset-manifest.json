@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/divineportfolio/static/css/main.d891797a.css",
-    "main.js": "/divineportfolio/static/js/main.26cb1f4a.js",
+    "main.js": "/divineportfolio/static/js/main.2692c0a3.js",
     "static/js/453.56c90010.chunk.js": "/divineportfolio/static/js/453.56c90010.chunk.js",
-    "static/media/CABIGTING_CVPROJECTS.pdf": "/divineportfolio/static/media/CABIGTING_CVPROJECTS.34ee345deea82344802b.pdf",
+    "static/media/cabigting_cvprojs.pdf": "/divineportfolio/static/media/cabigting_cvprojs.bba736c3eeae6744100b.pdf",
     "static/media/17.png": "/divineportfolio/static/media/17.4fcd2bdf1cf4cef5e582.png",
     "static/media/13.png": "/divineportfolio/static/media/13.f40cdd6de3692f05eb0c.png",
     "static/media/picprof.png": "/divineportfolio/static/media/picprof.aac0eba06e881dd754af.png",
@@ -43,6 +43,7 @@
     "static/media/fyr.jpg": "/divineportfolio/static/media/fyr.c87a5be945965d25506b.jpg",
     "static/media/innovau.jpg": "/divineportfolio/static/media/innovau.525e5ba8b8356c3c1c8a.jpg",
     "static/media/flexilabs.jpg": "/divineportfolio/static/media/flexilabs.f56978f505c9095bf47f.jpg",
+    "static/media/bfdweb.jpg": "/divineportfolio/static/media/bfdweb.16bec538001e0e0cc44c.jpg",
     "static/media/anetteerickson.jpg": "/divineportfolio/static/media/anetteerickson.d11e879b846e0edbd513.jpg",
     "static/media/fa-regular-400.ttf": "/divineportfolio/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
     "static/media/fa-regular-400.woff2": "/divineportfolio/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
@@ -50,11 +51,11 @@
     "static/media/fa-v4compatibility.woff2": "/divineportfolio/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/divineportfolio/index.html",
     "main.d891797a.css.map": "/divineportfolio/static/css/main.d891797a.css.map",
-    "main.26cb1f4a.js.map": "/divineportfolio/static/js/main.26cb1f4a.js.map",
+    "main.2692c0a3.js.map": "/divineportfolio/static/js/main.2692c0a3.js.map",
     "453.56c90010.chunk.js.map": "/divineportfolio/static/js/453.56c90010.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d891797a.css",
-    "static/js/main.26cb1f4a.js"
+    "static/js/main.2692c0a3.js"
   ]
 }

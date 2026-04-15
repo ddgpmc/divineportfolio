@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Home.css';
 import profilePicture from './assets/picprof.png';
 import profileAfterWork from './assets/d2.jpg';
-import CVdivs from './assets/CABIGTING_CVPROJECTS.pdf';
+import CVdivs from './assets/cabigting_cvprojs.pdf';
 
 function Home() {
   const [text, setText] = useState('');

@@ -15,6 +15,7 @@ import flexilabsDevelopment from './assets/development/flexilabs.jpg';
 import innovauDevelopment from './assets/development/innovau.jpg';
 import hiddenDevelopment from './assets/development/hiddencity.jpg';
 import fyrDevelopment from './assets/development/fyr.jpg';
+import bfdwebsite from './assets/development/bfdweb.jpg';
 
 
 // Development
@@ -47,6 +48,22 @@ import graphicDesign18 from './assets/graphics/28.png';
 const projects = [
   // Development Projects
 
+  { id: 1,
+    title: 'Brandfox Digital Marketing',
+    description: 'Landing page for Brandfox Digital',
+    image: bfdwebsite,
+    category: 'Development',
+  },
+    {
+    id: 4,
+    title: 'Digipath Solutions Website',
+    description: 'A system that streamlines school operations, student enrollment, and grading.',
+    image: digiDevelopment,
+    category: 'Development',
+    stack: 'WordPress',
+    features: 'Company pages, service showcase, lead capture',
+    integrations: 'Yoast SEO, Contact Form 7',
+  },
   {
     id: 23,
     title: 'Accounting Management System',
@@ -108,7 +125,7 @@ const projects = [
     integrations: 'Payment integration',
   },
   {
-    id: 1,
+    id: 12,
     title: 'E-SAGIP',
     description: 'Designed and Developed the E-SAGIP Application. The app is an emergency response application tailored for barangay-level deployment.',
     image: esagipDevelopment,
@@ -136,16 +153,6 @@ const projects = [
     stack: 'ReactJS',
     features: 'Landing page, contact forms',
     integrations: 'Contact Forms',
-  },
-  {
-    id: 4,
-    title: 'Digipath Solutions Website',
-    description: 'A system that streamlines school operations, student enrollment, and grading.',
-    image: digiDevelopment,
-    category: 'Development',
-    stack: 'WordPress',
-    features: 'Company pages, service showcase, lead capture',
-    integrations: 'Yoast SEO, Contact Form 7',
   },
   // UI/UX Design Projects
   {

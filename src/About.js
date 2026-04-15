@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import './About.css';
 import profilePic from '../src/assets/picprof.png';
-import CVdivs from './assets/CABIGTING_CVPROJECTS.pdf';
+import CVdivs from './assets/cabigting_cvprojs.pdf';
 
 function About() {
 
